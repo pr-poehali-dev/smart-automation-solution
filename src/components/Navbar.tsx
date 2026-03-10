@@ -33,14 +33,11 @@ export function Navbar() {
             <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">
               Разделы
             </a>
+            <a href="#glossary" className="text-sm font-medium hover:text-primary transition-colors">
+              Глоссарий
+            </a>
             <a href="#quiz" className="text-sm font-medium hover:text-primary transition-colors">
               Задания
-            </a>
-            <a href="#pricing" className="text-sm font-medium hover:text-primary transition-colors">
-              Тарифы
-            </a>
-            <a href="#contact" className="text-sm font-medium hover:text-primary transition-colors">
-              Контакты
             </a>
           </div>
 

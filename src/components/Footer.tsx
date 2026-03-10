@@ -27,13 +27,13 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#quiz" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Задания
+                <a href="#glossary" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Глоссарий
                 </a>
               </li>
               <li>
-                <a href="#contact" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  Контакты
+                <a href="#quiz" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                  Задания
                 </a>
               </li>
             </ul>
