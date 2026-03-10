@@ -38,10 +38,10 @@ export function ContactSection() {
             Контакты
           </div>
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 text-balance">
-            Давайте <span className="text-primary">создавать вместе</span>
+            Есть вопрос или <span className="text-primary">предложение?</span>
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto text-pretty leading-relaxed">
-            Готовы воплотить ваши цифровые амбиции? Свяжитесь с нами без обязательств и узнайте, чем мы можем помочь.
+            Напишите нам — поможем с доступом, ответим на вопросы по материалам или обсудим корпоративное сотрудничество.
           </p>
         </div>
 
@@ -51,6 +51,7 @@ export function ContactSection() {
               <CardHeader>
                 <CardTitle className="text-2xl">Напишите нам</CardTitle>
               </CardHeader>
+
               <CardContent>
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
@@ -67,6 +68,7 @@ export function ContactSection() {
                         required
                         className="transition-all focus:scale-[1.02]"
                       />
+
                     </div>
                     <div className="space-y-2">
                       <label htmlFor="email" className="text-sm font-medium">
@@ -107,7 +109,7 @@ export function ContactSection() {
                       name="message"
                       value={formData.message}
                       onChange={handleChange}
-                      placeholder="Расскажите о вашем проекте..."
+                      placeholder="Ваш вопрос или предложение..."
                       rows={6}
                       required
                       className="transition-all focus:scale-[1.02]"
